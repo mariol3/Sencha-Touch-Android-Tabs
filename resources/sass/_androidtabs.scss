@@ -1,0 +1,50 @@
+$android-tabs-tabbar-height: $global-row-height !default;
+$android-tabs-tabbar-background: #fff !default;
+
+$android-tabs-tab-height: $android-tabs-tabbar-height !default;
+$android-tabs-tab-label-color: gray;
+$android-tabs-active-tab-label-color: #000;
+
+$android-tabs-tab-icon-size: $android-tabs-tab-height - .6em;
+
+.x-ux-androidtabs {
+	.x-tabbar {
+
+		.x-tab {
+			background: rgba(0, 0, 0, 0);
+			border-radius: 0;
+			cursor: pointer;
+			height: $android-tabs-tab-height;
+			padding: (($android-tabs-tab-height - 1em) / 2) .8em;
+
+			.x-button-icon {
+                width: $android-tabs-tab-icon-size;
+                height: $android-tabs-tab-icon-size;
+            }
+
+            .x-button-label {
+            	font-weight: normal;
+            }
+
+			&.x-tab-icon {
+				padding : (($android-tabs-tab-height - 1em) / 2) - .1em .8em;
+
+				.x-button-label {
+            		top: - (($android-tabs-tab-height - 1em) / 2) - .1em;
+            	}
+			}
+
+			&:hover {
+				background: rgba(0, 0, 0, 0.2);
+			}
+
+			&.x-tab-active {
+				border-bottom: 3px solid;
+
+				.x-button-label {
+					font-weight: bold;
+				}
+			}
+		}
+	}	
+}
