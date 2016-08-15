@@ -1,5 +1,5 @@
 Ext.define('AndroidTabs.view.Main', {
-    extend: 'Ext.ux.mario.AndroidTab',
+    extend: 'Ext.ux.mario.AndroidTabs',
     xtype: 'main',
     requires: [
         'Ext.TitleBar',

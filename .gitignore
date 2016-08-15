@@ -1,3 +1,19 @@
+.DS_Store
+
+# Build and Release Folders
+archive/
 build/
+.sencha_backup/
+bootstrap.json
+bootstrap.js
+native/
+/ios/
+.sencha/app/appcodegen.json
+.gradle
+test/
+
+# sass cache folder
 **/.sass-cache
+
+#css which are generated
 resources/**/*.css

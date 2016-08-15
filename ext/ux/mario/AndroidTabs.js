@@ -1,4 +1,4 @@
-Ext.define('Ext.ux.mario.AndroidTab', {
+Ext.define('Ext.ux.mario.AndroidTabs', {
 
 	extend: 'Ext.TabPanel',
 
@@ -32,7 +32,7 @@ Ext.define('Ext.ux.mario.AndroidTab', {
         }
 	},
 
-	/**
+    /**
      * Centers the selected tab into the Tab Bar in an Android tabs style.
      * @private
      * @param container The TabPanel
